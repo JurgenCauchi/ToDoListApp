@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#7A4BD1"
+            android:textSize="18sp"
+            android:text="Task Title"
+            android:textColor="@color/textPrimary" />
+        <!-- In your task item layout -->
+        <TextView
+            android:id="@+id/priorityText"
+            android:text="Priority:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dueDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Due: YYYY-MM-DD"
+            android:textSize="14sp"
+            android:textColor="@color/textPrimary" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
