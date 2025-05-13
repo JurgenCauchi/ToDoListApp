@@ -1,3 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Dark theme colors -->
+    <color name="colorPrimary">#7B14F4</color>  <!-- Lighter purple for visibility -->
+    <color name="colorPrimaryDark">#3700B3</color>  <!-- Deep purple -->
+    <color name="colorAccent">#5700FF</color>  <!-- Teal accent for contrast -->
+
+    <!-- Dark backgrounds -->
+    <color name="background">#121212</color>  <!-- Near-black -->
+    <color name="surface">#1E1E1E</color>  <!-- Slightly lighter for cards -->
+
+    <!-- Text colors -->
+    <color name="textPrimary">#CCCCCC</color>  <!-- White -->
+    <color name="textSecondary">#B3B3B3</color>  <!-- Light gray -->
+
+    <!-- Priority colors (adjusted for dark theme) -->
+    <color name="priority_low">#81C784</color>  <!-- Lighter green -->
+    <color name="priority_medium">#FF8A65</color>  <!-- Lighter orange -->
+    <color name="priority_high">#FF5252</color>  <!-- Brighter red -->
+
+    <!-- Keep these the same -->
+    <color name="white">#FFFFFF</color>
+    <color name="green">#ABF25F</color>
+    <color name="red">#FF4444</color>
+
+    <color name="settingsIcon">#FFFFFF</color>
+
+    <color name="BackButton">#FFFFFF</color>
 </resources>
